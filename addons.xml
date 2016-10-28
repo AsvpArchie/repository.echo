@@ -30,7 +30,7 @@
 
 <addon id="plugin.program.echoinstaller" 
 	     name="[COLOR lime]ECHO[/COLOR] [COLOR white]Addon Installer[/COLOR]" 
-	     version="1.12" 
+	     version="1.13" 
 	     provider-name="Echo Coder">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
