@@ -30,14 +30,14 @@
 
 <addon id="plugin.video.sportie" 
 	     name="Sportie" 
-	     version="1.11"
+	     version="1.12"
 	     provider-name="Sportie / Echo Coder">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" version="2.9.1"/>
     <import addon="script.module.simplejson"/>
-    <import addon="script.module.urlresolver"/>
-    <import addon="script.module.liveresolver"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.liveresolver" optional="true"/>
     <import addon="plugin.video.f4mTester" optional="true"/>
     <import addon="script.video.F4mProxy" optional="true"/>
     <import addon="plugin.video.SportsDevil" optional="true"/>
