@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.program.echowizard" 
 	     name="[COLOR yellowgreen]ECHO[/COLOR] [COLOR white]Wizard[/COLOR]" 
-	     version="1.40"
+	     version="1.41"
 	     provider-name="Echo Coder">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
@@ -72,6 +72,30 @@
     <summary lang="en">Twitter Support: @echo_coding</summary>
     <description lang="en">Teevie brings you an unbelievable amount of IPTV channels from ALL OVER THE WORLD!</description>
     <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://www.echocoder.com</forum>
+    <website>http://www.echocoder.com</website>
+    <email>echocoder@protonmail.com</email>
+  </extension>
+</addon>
+
+<addon id="plugin.video.echoplayer" 
+	     name="ECHO Player" 
+	     version="1.00"
+	     provider-name="Echo Coder">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension> 
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Twitter Support: @echo_coding</summary>
+    <description lang="en">Play a variety of differnt file extentions via urls.</description>
+    <disclaimer lang="en">Play ts, m3u, m3u8, mp4, mkv and much much more!</disclaimer>
     <language></language>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
