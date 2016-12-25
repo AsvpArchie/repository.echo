@@ -136,7 +136,7 @@
 
 <addon id="plugin.video.echocommunityplayer" 
 	     name="ECHO Community Player" 
-	     version="1.00"
+	     version="1.01"
 	     provider-name="Echo Coder">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
