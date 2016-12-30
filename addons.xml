@@ -178,7 +178,8 @@ Your IP will never be shared and/or given to any 3rd party.
     <email>echocoder@protonmail.com</email>
   </extension>
 </addon>
-<addon id="plugin.program.echotvguide" name="[COLOR lime]ECHO[/COLOR] [COLOR white]TV Guide[/COLOR]" version="1.10" provider-name="Echo Coder">
+
+<addon id="plugin.program.echotvguide" name="[COLOR yellowgreen]ECHO[/COLOR] [COLOR white]TV Guide[/COLOR]" version="1.11" provider-name="Echo Coder">
 
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
@@ -196,8 +197,8 @@ Your IP will never be shared and/or given to any 3rd party.
     <extension point="xbmc.service" library="service.py" start="login"/>
 	<extension point="xbmc.addon.metadata">
 	
-		<summary lang="en">TV Guide allows you to combine some of your favourite live TV plugins for use with a fully working EPG</summary>
-		<summary lang="en_US">TV Guide allows you to combine some of your favourite live TV plugins for use with a fully working EPG</summary>
+		<summary lang="en">Twitter: @EchoCoder</summary>
+		<summary lang="en_US">Twitter: @EchoCoder</summary>
 
 		<description lang="en">TV Guide allows you to combine some of your favourite live TV plugins for use with a fully working EPG</description>
 		<description lang="en_US">TV Guide allows you to combine some of your favourite live TV plugins for use with a fully working EPG</description>
@@ -205,9 +206,8 @@ Your IP will never be shared and/or given to any 3rd party.
 		<language></language>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-		<forum>http://www.tdbwizard.co.uk/forum</forum>
-		<website>http://www.tdbwizard.co.uk</website>
-		<email>tdbwizard@gmail.com</email>
+		<website>http://echocoder.com/repo</website>
+		<email>echocoder@protonmail.com</email>
 	</extension>
 </addon>
 
