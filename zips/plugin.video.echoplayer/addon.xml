@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.echoplayer" 
 	     name="ECHO Player" 
-	     version="1.00"
+	     version="1.01"
 	     provider-name="Echo Coder">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.f4mTester" version="2.7.1"/>
+    <import addon="script.module.urlresolver" version="3.0.26"/>
+    <import addon="script.module.liveresolver" version="1.12.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
