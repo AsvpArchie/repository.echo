@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.FMG"
        name="Find My Game"
-       version="2.01"
+       version="2.02"
        provider-name="BlueBuilds, EchoCoder">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -11,7 +11,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Find a stream for Your Game</summary>
-    <description lang="en">Easy Way To Find which Add-on is showing your game. Thankyou to Metal Kettle, Echo and Marty Man for their assisance. Also thanks to all the Devs that have agreed to take part in this project.</description>
+    <description lang="en">Easy Way To Find which Add-on is showing your game. Thank you to Metal Kettle, Echo and Marty Man for their assisance. Also thanks to all the Devs that have agreed to take part in this project.</description>
     <disclaimer lang="en"></disclaimer>
 	<platform>all</platform>
   </extension>
