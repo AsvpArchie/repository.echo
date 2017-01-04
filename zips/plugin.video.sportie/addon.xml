@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.sportie" 
 	     name="Sportie" 
-	     version="1.21"
+	     version="1.22"
 	     provider-name="Sportie / Echo Coder">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -14,13 +14,20 @@
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <summary lang="en">Living the stream... Twitter Support: @sportiestreams @EchoCoder</summary>
-    <description lang="en">Living the stream... Twitter Support: @sportiestreams @EchoCoder</description>
-    <disclaimer lang="en"></disclaimer>
+    <description lang="en">Sportie is a multi scraping/playlist sports addon that scrapes numerous websites to bring you the most up to date streams every time you use the addon!</description>
+    <disclaimer lang="en">Sportie does not host any of the streams provided within the adon.</disclaimer>
     <language></language>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     <forum>http://www.echocoder.com</forum>
     <website>http://www.echocoder.com</website>
     <email>echocoder@protonmail.com</email>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+        <screenshot>resources/screenshot-01.png</screenshot>
+        <screenshot>resources/screenshot-02.png</screenshot>
+        <screenshot>resources/screenshot-03.png</screenshot>
+    </assets>
   </extension>
 </addon>
