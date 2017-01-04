@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.FMG"
        name="Find My Game"
-       version="2.04"
+       version="2.05"
        provider-name="BlueBuilds, EchoCoder">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -14,5 +14,12 @@
     <description lang="en">Easy Way To Find which Add-on is showing your game. Thank you to Metal Kettle, Echo and Marty Man for their assisance. Also thanks to all the Devs that have agreed to take part in this project.</description>
     <disclaimer lang="en">The addon does not host any of the links within. The links are all from 3rd party addons and obtained with permission.</disclaimer>
 	<platform>all</platform>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+        <screenshot>resources/art/screenshots/screenshot-01.png</screenshot>
+        <screenshot>resources/art/screenshots/screenshot-02.png</screenshot>
+        <screenshot>resources/art/screenshots/screenshot-03.png</screenshot>
+    </assets>
   </extension>
 </addon>
