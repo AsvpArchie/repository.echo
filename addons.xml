@@ -79,7 +79,7 @@
 
 <addon id="plugin.video.FMG"
        name="Find My Game"
-       version="2.03"
+       version="2.04"
        provider-name="BlueBuilds, EchoCoder">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
