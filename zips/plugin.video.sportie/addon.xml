@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.sportie" 
 	     name="Sportie" 
-	     version="1.23"
+	     version="1.24"
 	     provider-name="Sportie / Echo Coder">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -25,9 +25,9 @@
     <assets>
         <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
-        <screenshot>resources/screenshot-01.png</screenshot>
-        <screenshot>resources/screenshot-02.png</screenshot>
-        <screenshot>resources/screenshot-03.png</screenshot>
+        <screenshot>resources/art/screenshot-01.png</screenshot>
+        <screenshot>resources/art/screenshot-02.png</screenshot>
+        <screenshot>resources/art/screenshot-03.png</screenshot>
     </assets>
   </extension>
 </addon>
