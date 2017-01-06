@@ -28,12 +28,13 @@
 
 <addon id="plugin.video.sportie" 
 	     name="Sportie" 
-	     version="1.24"
+	     version="1.25"
 	     provider-name="Sportie / Echo Coder">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="plugin.video.f4mTester" version="2.7.1"/>
-    <import addon="script.module.simplejson"/>
+    <import addon="plugin.video.f4mTester" version="2.7.1" optional="true"/>
+    <import addon="script.module.urlresolver" version="3.0.26" optional="true"/>
+	<import addon="script.module.simplejson" version="3.3.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
