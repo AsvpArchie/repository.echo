@@ -212,7 +212,7 @@ Your IP will never be shared and/or given to any 3rd party.
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2016.11.20"
+  version="2016.12.31"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
@@ -221,7 +221,6 @@ Your IP will never be shared and/or given to any 3rd party.
    <import addon="script.module.six" />
    <import addon="script.module.requests" />
    <import addon="script.module.livestreamer" />
-   <import addon="script.module.pydevd" version="4.4.0" optional="true"/>
   </requires>
   <extension 
     point="xbmc.python.pluginsource"
