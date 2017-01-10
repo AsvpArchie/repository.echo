@@ -71,6 +71,39 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.echostreams" 
+	     name="ECHO Streams" 
+	     version="1.00"
+	     provider-name="Echo Coder, Echo Blue">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.f4mTester" version="2.7.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension> 
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Twitter Support: @EchoCoder @Blue_Builds</summary>
+    <description lang="en">Echo Streams is a multi scraping addon that scrapes numerous lists to bring you the most up to date streams every time you use the addon!</description>
+    <disclaimer lang="en">Echo Streams does not host any of the streams provided within the addon.</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://www.echocoder.com</forum>
+    <website>http://www.echocoder.com</website>
+    <email>echocoder@protonmail.com</email>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+        <screenshot>resources/screenshots/screenshot-01.png</screenshot>
+        <screenshot>resources/screenshots/screenshot-02.png</screenshot>
+        <screenshot>resources/screenshots/screenshot-03.png</screenshot>
+        <screenshot>resources/screenshots/screenshot-04.png</screenshot>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="plugin.video.teevie" 
 	     name="Teevie" 
 	     version="1.02"
