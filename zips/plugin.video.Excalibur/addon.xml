@@ -1,32 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.Excalibur"
-       name=".[COLOR yellow]Excalibur[/COLOR][COLOR red] Streams[/COLOR]."
-       version="1.2"
-       provider-name="Excalibur">
+<addon id="plugin.video.Excalibur" name=".[COLOR yellow]Excalibur[/COLOR][COLOR red] Streams[/COLOR]." version="1.5" provider-name="EchoBlue">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" /> 
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.module.urlresolver"  version="2.1.2"/>
+    <import addon="script.module.liveresolver" version="0.1.24"/>
     <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
 
+    <import addon="script.module.metahandler" version="2.5.1"/>
+    <import addon="plugin.video.youtube" optional="true" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
+        <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Excalibur Free Streams</summary>
-    <description lang="en">Free IPTV, Created By Blue Builds and Si Free UKTV</description>
-    <disclaimer lang="en">Excalibur does not host any streams, all content is easily accessible online. Use at your own descression</disclaimer>
-	<platform>all</platform>
+    <description lang="en">Free IPTV, Maintained By Echo Blue and Si Free UKTV.....Thankyou to EchoCoder and SimTech for the base code</description>
+	<disclaimer lang="en">Excalibur does not host any streams, all content is easily accessible online. Use at your own descression</disclaimer>
+    <platform>all</platform>
   </extension>
 </addon>
