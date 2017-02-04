@@ -73,7 +73,7 @@
 
 <addon id="plugin.video.echostreams" 
 	     name="ECHO Streams" 
-	     version="1.14"
+	     version="1.15"
 	     provider-name="Echo Coder, Echo Blue">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
