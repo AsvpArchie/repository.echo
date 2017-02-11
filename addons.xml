@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.program.echowizard" 
 	     name="[COLOR yellowgreen]ECHO[/COLOR] [COLOR white]Wizard[/COLOR]" 
-	     version="1.74"
+	     version="1.75"
 	     provider-name="Echo Coder">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
